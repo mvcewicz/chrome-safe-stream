@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    @apply text-gray-900;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        @apply text-gray-100 ;
+    }
+}

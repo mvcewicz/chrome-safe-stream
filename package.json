@@ -2,6 +2,7 @@
   "private": true,
   "scripts": {
     "build": "turbo run build",
+    "build:watch": "turbo run build:watch",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
@@ -12,7 +13,10 @@
     "eslint-config-custom": "workspace:*",
     "tsconfig": "workspace:*",
     "prettier": "3.0.1",
-    "turbo": "latest"
+    "turbo": "latest",
+    "@chrome-safe-stream/content-script": "workspace:*",
+    "@chrome-safe-stream/popup": "workspace:*",
+    "@chrome-safe-stream/shared": "workspace:*"
   },
   "packageManager": "pnpm@8.6.10",
   "name": "chrome-safe-stream"

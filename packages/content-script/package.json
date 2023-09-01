@@ -1,0 +1,23 @@
+{
+  "name": "@chrome-safe-stream/content-script",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build:content": "vite build -c vite.config.ts",
+    "build": "tsc && pnpm run build:content",
+    "preview": "vite preview",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "chrome-types": "^0.1.222",
+    "eslint": "8.47.0",
+    "eslint-config-custom": "workspace:*",
+    "tsconfig": "workspace:*",
+    "@chrome-safe-stream/shared": "workspace:*",
+    "typescript": "5.1.6",
+    "vite": "^4.4.5",
+    "vitest": "^0.34.1"
+  }
+}

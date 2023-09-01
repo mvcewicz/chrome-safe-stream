@@ -1,0 +1,17 @@
+{
+  "name": "@chrome-safe-stream/shared",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "tsconfig": "*",
+    "eslint-config-custom": "*",
+    "eslint": "^8.47.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "@chrome-safe-stream/build",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "./build.sh"
+  },
+  "dependencies": {
+    "@chrome-safe-stream/content-script": "*",
+    "@chrome-safe-stream/popup": "*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
